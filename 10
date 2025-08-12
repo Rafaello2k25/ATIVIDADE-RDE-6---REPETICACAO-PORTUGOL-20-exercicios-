@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real paisA = 80.000
+		real paisB = 200.000
+		real taxaA = 0.03
+		real taxaB = 0.015
+		inteiro anos = 0
+
+		enquanto(paisA<paisB){
+			paisA = paisA + (paisA * taxaA)
+			paisB = paisB + (paisB * taxaB)
+			anos = + 1
+		}
+		escreva("Serão necessários ", anos, " anos para que o país A alcance ou ultrapasse o país B.")
+    escreva("População final de A: ", paisA, "\n")
+    escreva("População final de B: ", paisB)
+	}
+}
